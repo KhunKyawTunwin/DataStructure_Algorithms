@@ -6,7 +6,6 @@
 // // const email = customer.email;
 // // const gender = customer.gender;
 
-
 // //ES6//
 // const {name, email, gender} = customers;
 // console.log(name, email, gender);
@@ -43,8 +42,6 @@
 
 // console.log (caculate(3, 2));
 
-
-
 // //rest parameter
 // const testing = (...para) =>{
 //     let total = 0;
@@ -62,24 +59,21 @@ console.log(String.toUpperCase());
 console.log(String.toLowerCase());
 console.log(String.length);
 
-
 //Number//
 let num = "10";
-let result = parseInt(num, 10);   //String Number to Intrger change
+let result = parseInt(num, 10); //String Number to Intrger change
 console.log(result);
 
 let num1 = 10;
-let ans = num1.toString();  // Numner to String
+let ans = num1.toString(); // Numner to String
 console.log(ans);
 
 //Objec
-const customer = {name: 'customer1', email: 'customer1@gmail.com', gender: 'male'};
-console.log (Object.keys(customer));    //Only keys will appear
-console.log (Object.values(customer));  //Only values will appear
-console.log (customer.hasOwnProperty("name"));        //name shi ma shi sit
-
-
-
-
-
-
+const customer = {
+  name: "customer1",
+  email: "customer1@gmail.com",
+  gender: "male",
+};
+console.log(Object.keys(customer)); //Only keys will appear
+console.log(Object.values(customer)); //Only values will appear
+console.log(customer.hasOwnProperty("name")); //name shi ma shi sit
